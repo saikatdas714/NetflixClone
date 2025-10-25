@@ -1,0 +1,301 @@
+body {
+    background-color: black;
+  
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    overflow-x: clip;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+;
+  
+
+
+}
+
+.top {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9ba9f0e2-b246-47f4-bd1f-3e84c23a5db8/web/IN-en-20251020-TRIFECTA-perspective_d6da84e9-6145-4b1e-bb51-e402c966a045_large.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+
+
+
+}
+
+.top2 {
+    height: 40vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+
+
+}
+
+.nev {
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+
+
+
+
+
+}
+
+.logo {
+    height: 90%;
+    z-index: 2;
+
+}
+
+.but {
+    scale: 1.2;
+    margin-top: 5px;
+
+}
+
+.but :nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.415);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-right: 5px;
+    border: none;
+}
+
+.but :nth-child(2) {
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    padding: 1px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin: 10px;
+    
+   
+}
+
+.con :nth-child(1) {
+    font-weight: 600;
+}
+
+.con p {
+    z-index: 3;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    scale: 1.5;
+    margin: 30px;
+
+}
+
+.email form input {
+    background-color: rgba(0, 0, 0, 0.482);
+    border: none;
+    border-radius: 3px;
+
+}
+
+.email form button {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 1px 8px;
+}
+
+
+
+.email2 {
+    display: flex;
+    justify-content: center;
+     margin: 30px;
+     margin-bottom: 50px;
+    scale: 2;
+}
+
+.email2 form input {
+    background-color: rgba(0, 0, 0, 0.482);
+    border: 1px solid gray;
+    border-radius: 3px;
+
+}
+
+.email2 form button {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 1px 8px;}
+    
+
+
+
+
+    hr {
+        border: 1px solid red;
+
+    }
+
+    .tra {
+        /* border: 2px solid white; */
+        height: 30vh;
+
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .mov {
+        height: 150px;
+        width: 120px;
+        color: white;
+
+
+    }
+
+    .mov img {
+        height: 100%;
+        border-radius: 3px;
+        margin: 10px;
+    }
+     
+   
+    .end {
+        display: flex;
+        transform: translatey(1vh);
+        justify-content: center;
+    }
+
+    .card {
+        height: 10vh;
+        width: 40vw;
+        margin: 20px;
+       
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+
+
+        justify-content: space-between;
+        background-color: gray;
+    }
+
+    .card div {
+        margin: 25px; 
+
+    }
+
+    .card-con {
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+    .en {
+        margin: 20px;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card:hover {
+        background-color: red;
+       
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1px;
+        column-gap: 10px;
+       
+        margin-left: 10%;
+        text-decoration: underline 0.2px;
+       
+      
+    }
+    .item{
+         margin: 20px;
+    }
+.footer-item{
+    margin: 10px;
+}
+    @keyframes pos {
+        form{
+            scale: 1;
+        }
+        to{
+            scale: 1.2;
+        }
+    }
+
+    .mov img:hover {
+
+       animation: pos 0.4s ease-in-out 2 alternate ;
+    }
+   
+
+
+    @media screen and (max-width : 819px) 
+    {
+        .tra {
+            height: 230vh;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 50px;
+            margin-bottom: 10px;
+        }
+
+        .mov {
+            margin-bottom: 100px;
+            height: 350px;
+            width: 320px;
+        }
+         .pro{
+        margin: 10px;
+    }
+
+        .card-con {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .email {
+            scale: 1.1;
+        }
+
+        .email2 {
+            scale: 1.1;
+        }
+
+        .card {
+            width: 30vb;
+            
+        }
+        footer{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
