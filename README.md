@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone Website https://saikatdas.netlify.app/
+# 🎬 Netflix U.I. Clone https://saikatdas.netlify.app/
 
 This is a **Netflix landing page clone** built using **HTML and CSS**.  
 It’s a beginner-friendly front-end project that replicates the visual style of the official Netflix homepage — including the hero section, navigation bar, trending section, and signup form.
